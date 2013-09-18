@@ -5,5 +5,7 @@ task hello {
 }
 
 task assemble {
-    print "First build"
+    doLast {
+        println "Hello, world"
+    }
 }
