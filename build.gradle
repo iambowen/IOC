@@ -1,0 +1,9 @@
+task hello {
+    doLast {
+        println "Hello, world"
+    }
+}
+
+task check {
+    print "First build"
+}
