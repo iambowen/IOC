@@ -4,6 +4,6 @@ task hello {
     }
 }
 
-task check {
+task assemble {
     print "First build"
 }
